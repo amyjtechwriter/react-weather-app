@@ -13,8 +13,11 @@ root.render(
       <h1>Weather App</h1>
       <WeatherSearch />
       <p>
-        link to github here
-      </p>
+      <a href="https://github.com/amyjtechwriter/react-weather-app">
+        Open-source code on GitHub{" "}
+      </a>{" "}
+      by Amy Jonsson
+    </p>
     </div>
   </StrictMode>
 );
