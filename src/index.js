@@ -1,6 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import WeatherSearch from "./WeatherSearch";
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 import "./styles.css";
 
@@ -10,6 +12,7 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <div className="App">
+      <div className="container">
       <h1>Weather App</h1>
       <WeatherSearch />
       <p>
@@ -18,6 +21,7 @@ root.render(
       </a>{" "}
       by Amy Jonsson
     </p>
+    </div>
     </div>
   </StrictMode>
 );
