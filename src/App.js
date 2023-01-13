@@ -10,7 +10,7 @@ export default function App() {
         <footer>
           This project is coded by{" "}
           <a
-            href="insertlink"
+            href="https://www.linkedin.com/in/amy-j%C3%B6nsson-85840b158/"
             target="_blank"
             rel="noreferrer"
             className="footer"
@@ -28,7 +28,7 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href="insertlink"
+            href="https://resilient-chimera-345e7e.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="footer"
